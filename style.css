@@ -102,3 +102,28 @@
   text-align: center;
   border-bottom: solid 1px rgba(128, 128, 128, 0.5);
 }
+
+.container .content .ponbut a{
+  border: solid 1px dodgerblue;
+  border-radius: 10px;
+  text-align: center;
+  display: inline;
+  padding: 2%;
+  text-decoration: none;
+  
+}
+
+.container .content .ponbut a:hover{
+  color: #33CC99;
+  background-color: #F8F8F8;
+}
+
+.container .content .ponbut p{
+  display: block;
+  text-align: center;
+  position: absolute;
+  width: 20%;
+  left: 50%;
+  transform: translate(-50% , 0);
+  top: 95%;
+}
