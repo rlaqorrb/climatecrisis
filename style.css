@@ -34,6 +34,7 @@
 .container .content{
   border-left: solid black 1px;
   padding-left: 3%;
+  padding-top: 3%;
   position: absolute;
   top: 10%;
   left: 22%;
@@ -89,4 +90,15 @@
 .container .nav ul a .selected{
   color: #F8F8F8;
   background-color: #33CC99;
+}
+
+.container .content .fstday{
+  display: block;
+  text-align: center;
+}
+
+.container .content small{
+  display: block;
+  text-align: center;
+  border-bottom: solid 1px rgba(128, 128, 128, 0.5);
 }
