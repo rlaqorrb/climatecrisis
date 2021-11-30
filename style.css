@@ -48,9 +48,9 @@
   text-align: center;
 }
 
-.container .content img{
+.container .content .img img{
   text-align: center;
-  width: 28%;
+  width: 20%;
   left: 50%;
 }
 
